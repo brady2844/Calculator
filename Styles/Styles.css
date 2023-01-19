@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-image: radial-gradient(red, blue, purple);
+}
+
+h1 {
+    font-size: 30pt;
+    color: rgb(0, 0, 0);
+}
+
+.allbtn {
+width: 3in;
+height: 3in;
+}
+
+button {
+    height: 3in;
+}
