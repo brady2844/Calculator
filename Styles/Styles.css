@@ -1,11 +1,11 @@
 body {
     text-align: center;
-    background-image: radial-gradient(red, blue, purple);
+    background-image: radial-gradient(grey, black);
 }
 
 h1 {
     font-size: 30pt;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .allbtn {
@@ -13,6 +13,74 @@ width: 3in;
 height: 3in;
 }
 
-button {
-    height: 3in;
+input {
+    height: 1in;
+    width: 4in;
+    font-size: 20pt;
+    color: blue;
+    background-image: linear-gradient(orange, black);
 }
+
+input:hover {
+    background-color: brown;
+}
+
+#expression {
+    width: 16in;
+}
+
+a {
+   color: black; 
+   font-size: 40pt;
+   text-decoration: none;
+}
+
+footer {
+    background-color: blue;
+    color: black;
+    text-align: left;
+    width: fit-content;
+    height: 4in;
+    font: size 40pt;
+}
+
+a:visited, a:active, a:hover, a:link {
+    background-color: blue;
+    text-align: left;
+    width: fit-content;
+    height: 4in;
+       color: black; 
+   font-size: 40pt;
+   text-decoration: none;
+}
+
+a:visited {
+        background-color: blue;
+    text-align: left;
+    width: fit-content;
+    height: 4in;
+       color: black; 
+   font-size: 40pt;
+   text-decoration: none;
+}
+
+a:active {
+        background-color: blue;
+    text-align: left;
+    width: fit-content;
+    height: 4in;
+       color: black; 
+   font-size: 40pt;
+   text-decoration: none;
+}
+
+a:link {
+        background-color: blue;
+    text-align: left;
+    width: fit-content;
+    height: 4in;
+       color: black; 
+   font-size: 40pt;
+   text-decoration: none;
+}
+
